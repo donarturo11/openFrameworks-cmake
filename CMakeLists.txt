@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 project(openFrameworks)
-set (OF_PREFIX libs/openFrameworks)
+set (OF_PREFIX openFrameworks/libs/openFrameworks)
 set (OF_LIBS 3d app communication events gl graphics math sound types utils)
 foreach (of_lib ${OF_LIBS})
     message("Building ${of_lib}")
