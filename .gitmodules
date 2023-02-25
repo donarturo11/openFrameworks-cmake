@@ -1,0 +1,7 @@
+[submodule "3party/libtess2"]
+  path = libtess2
+  url = https://github.com/memononen/libtess2/
+
+[submodule "libs"]
+  path = libs
+  url = https://github.com/openframeworks/openFrameworks

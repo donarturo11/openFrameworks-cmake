@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.0)
+project(openFrameworks)
+set (OF_PREFIX libs/openFrameworks)
+set (OF_LIBS 3d app communication events gl graphics math sound types utils)
+foreach (of_lib ${OF_LIBS})
+    message("Building ${of_lib}")
+    FILE(GLOB SRC ${OF_PREFIX}/${of_lib}/*.cpp)
+    FILE(GLOB INCLUDE ${OF_PREFIX}/${of_lib}/*.h)
+    include_directories(${OF_PREFIX}/${of_lib})
+    add_library(of_${of_lib} ${SRC} ${INCLUDE})
+endforeach()
+
