@@ -1,5 +1,4 @@
-[submodule "3party/libtess2"]
-  path = libtess2
+[submodule "libtess2"]
   url = https://github.com/memononen/libtess2/
 
 [submodule "libs"]
