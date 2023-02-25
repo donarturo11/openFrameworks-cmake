@@ -1,4 +1,3 @@
-[submodule "libtess2"]
-	url = https://github.com/memononen/libtess2.git
-[submodule "openFrameworks"]
-	url = https://github.com/openframeworks/openFrameworks.git
+[submodule "3party/libtess2"]
+  path = 3party/libtess2
+  url = https://github.com/memononen/libtess2.git
